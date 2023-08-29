@@ -1,0 +1,14 @@
+.detailsContainer {
+  width: 300;
+  height: 595;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  background: linear-gradient(
+    180deg,
+    #011751 0%,
+    rgba(3, 61, 212, 0.61) 38.54%,
+    rgba(0, 66, 236, 0) 100%
+  );
+}

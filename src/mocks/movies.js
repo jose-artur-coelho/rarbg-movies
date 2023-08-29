@@ -1,4 +1,4 @@
-export default movies = [
+export const movies = [
   {
     title: "Parasite",
     length: "152min",
@@ -73,7 +73,7 @@ export default movies = [
     title: "My Neighbor Totoro",
     length: "86min",
     cover:
-      "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_.jpg",
+      "https://i.pinimg.com/736x/f7/3e/ca/f73eca98ae27d6ae174c707f44c610bb.jpg",
     id: 8,
     year: 1988,
     genres: "Aventura/Animação",
@@ -106,7 +106,7 @@ export default movies = [
       "https://m.media-amazon.com/images/M/MV5BOWZkMGY2MzgtMTA0My00OTAxLTk0MDEtNWNjMWVhZGMyNGJiXkEyXkFqcGdeQXVyMTk4NTIzMzI@._V1_.jpg",
     id: 11,
     year: 2021,
-    genres: "",
+    genres: "Drama",
     price: "4",
   },
   {
