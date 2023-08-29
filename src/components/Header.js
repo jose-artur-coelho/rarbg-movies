@@ -1,37 +1,14 @@
 import { Cart } from "./Cart";
 import { Search } from "./Search";
-
-const logoStyles = {
-  color: "#0470D3",
-  fontSize: "48px",
-  fontStyle: "normal",
-  fontWeight: 600,
-  lineHeight: "normal",
-  letterSpacing: "1.44px",
-  WebkitTextStroke: "1px #FFF",
-  textStroke: "1px #FFF",
-};
-
-const headerStyles = {
-  display: "flex",
-  justifyContent: "space-around",
-  alignItems: "center",
-};
-
-const searchCartStyles = {
-  width: "15rem",
-  display: "flex",
-  justifyContent: "space-between",
-  alignItems: "center",
-};
+import styles from "./Header.module.css";
 
 export function Header() {
   return (
-    <header style={headerStyles}>
-      <h1 style={logoStyles}>RARBG</h1>
-      <div style={searchCartStyles}>
+    <header className={styles.header}>
+      <h1 className={styles.logo}>RARBG</h1>
+      <div className={styles.searchCart}>
         <Search />
-        <Cart />
+        <Cart color={"#0470d3"} width={30} height={30} />
       </div>
     </header>
   );

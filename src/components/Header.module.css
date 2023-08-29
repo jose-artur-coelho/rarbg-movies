@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: #0470d3;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  -webkit-text-stroke: 1px #fff;
+}
+.searchCart {
+  width: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

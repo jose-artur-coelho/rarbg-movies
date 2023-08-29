@@ -5,6 +5,7 @@
 }
 
 .searchInput {
+  padding: 5px 7px;
   border-radius: 5px;
   background: #e8e7f2;
   height: 2rem;

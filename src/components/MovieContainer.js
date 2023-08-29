@@ -10,27 +10,35 @@ export function MovieContainer({
   length,
 }) {
   return (
-    <section style={styles.detailsContainer}>
+    <section className={styles.detailsContainer}>
       <img
         src={posterUrl}
         alt="movie poster"
-        width="278"
+        width={278}
         height={395}
         style={{ marginBottom: "10px" }}
       />
-      <p>{title}</p>
-      <div>
-        <div style={{ display: "grid" }}>
-          <p>{genres}</p>
-          <p>{year}</p>
-          <p>{length}</p>
+      <p style={{ fontWeight: 700, textAlign: "center" }}>{title}</p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "end",
+        }}
+      >
+        <div className={styles.movieDetails}>
+          <p style={{ fontSize: "14px", fontWeight: "300" }}>{genres}</p>
+          <p style={{ fontSize: "14px", fontWeight: "300" }}>{year}</p>
+          <p style={{ fontSize: "14px", fontWeight: "300" }}>{length}</p>
         </div>
-        <p>R$ {price}</p>
+        <p style={{ fontSize: "25px", fontWeight: "600" }}>R$ {price}</p>
       </div>
-      <button>
-        ADICIONAR AO CARRINHO
-        <Cart />
-      </button>
+      <div className={styles.addToCartButton}>
+        <span style={{ marginRight: "10px", color: "#FFF" }}>
+          ADICIONAR AO CARRINHO
+        </span>
+        <Cart color={"#fff"} width={18} height={18} />
+      </div>
     </section>
   );
 }

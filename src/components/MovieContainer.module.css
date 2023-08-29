@@ -1,9 +1,8 @@
 .detailsContainer {
-  width: 300;
-  height: 595;
+  padding: 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   border-radius: 3px;
   background: linear-gradient(
     180deg,
@@ -11,4 +10,19 @@
     rgba(3, 61, 212, 0.61) 38.54%,
     rgba(0, 66, 236, 0) 100%
   );
+}
+.movieDetails {
+  display: grid;
+}
+.addToCartButton {
+  margin: 10px 0;
+  padding: 0.5rem;
+  display: flex;
+  border-radius: 5px;
+  background: #0470d3;
+  align-items: center;
+}
+.addToCartButton:hover {
+  background-color: rgba(59, 60, 73, 0.94);
+  cursor: pointer;
 }
