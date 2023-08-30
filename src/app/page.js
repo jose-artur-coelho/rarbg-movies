@@ -1,4 +1,5 @@
-import { MovieContainer } from "@/components/MovieContainer";
+"use client";
+import { MovieCard } from "@/components/MovieCard";
 import styles from "./page.module.css";
 import { movies } from "@/mocks/movies";
 
@@ -7,7 +8,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.container}>
         {movies.map((movie) => (
-          <MovieContainer
+          <MovieCard
             key={movie.id}
             posterUrl={movie.cover}
             title={movie.title}

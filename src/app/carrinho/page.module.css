@@ -11,8 +11,40 @@
   width: 1204px;
 
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 60px;
+
   border-radius: 5px;
+}
+.cartMovies {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px;
+}
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.totalValue {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.buyButton {
+  color: #fff;
+  font-size: 18px;
+
+  border-radius: 5px;
+  background: #0470d3;
+  text-align: center;
+  padding: 1rem;
+  width: 200px;
+  border: none;
+  margin: 10px;
+}
+.buyButton:hover {
+  background-color: rgba(59, 60, 73, 0.94);
+  cursor: pointer;
 }

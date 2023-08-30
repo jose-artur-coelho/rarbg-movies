@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import "./globals.css";
 import { Poppins } from "next/font/google";
+import CartProvider from "@/context/CartContext";
 
 const poppins = Poppins({
   weight: ["400", "600", "700", "300"],
@@ -16,8 +17,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <body className={poppins.className}>
-        <Header />
-        {children}
+        <CartProvider>
+          <Header />
+          {children}
+        </CartProvider>
       </body>
     </html>
   );

@@ -1,14 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
+import { useContext } from "react";
 import { Cart } from "./Cart";
-import styles from "./MovieContainer.module.css";
-export function MovieContainer({
-  posterUrl,
-  title,
-  price,
-  genres,
-  year,
-  length,
-}) {
+import styles from "@/styles/MovieCard.module.css";
+import { CartContext } from "@/context/CartContext";
+export function MovieCard({ posterUrl, title, price, genres, year, length }) {
+  const { addMovie, cart } = useContext(CartContext);
+
+  function handleAddMovie() {
+    const movieExists = cart.some((movie) => movie.title === title);
+
+    if (!movieExists) {
+      addMovie({ title, posterUrl, price });
+    }
+  }
+
   return (
     <section className={styles.detailsContainer}>
       <img
@@ -33,7 +38,7 @@ export function MovieContainer({
         </div>
         <p style={{ fontSize: "25px", fontWeight: "600" }}>R$ {price}</p>
       </div>
-      <div className={styles.addToCartButton}>
+      <div onClick={handleAddMovie} className={styles.addToCartButton}>
         <span style={{ color: "#FFF" }}>ADICIONAR AO CARRINHO</span>
         <Cart color={"#fff"} width={18} height={18} />
       </div>

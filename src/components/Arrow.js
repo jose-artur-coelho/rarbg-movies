@@ -1,6 +1,6 @@
 export function Arrow() {
   return (
-    <button>
+    <button style={{ cursor: "pointer" }}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="18"

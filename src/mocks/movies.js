@@ -7,7 +7,7 @@ export const movies = [
     id: 1,
     year: 2019,
     genres: "Drama/Suspense",
-    price: "3",
+    price: 3,
   },
   {
     title: "Blade Runner",
@@ -17,7 +17,7 @@ export const movies = [
     id: 2,
     year: 1982,
     genres: "Ficção cientifíca/Policial",
-    price: "4",
+    price: 4,
   },
   {
     title: "The Grand Budapest Hotel",
@@ -27,7 +27,7 @@ export const movies = [
     id: 3,
     year: 2014,
     genres: "Comédia",
-    price: "2",
+    price: 2,
   },
   {
     title: "Before Sunrise",
@@ -37,7 +37,7 @@ export const movies = [
     id: 4,
     year: 1995,
     genres: "Romance",
-    price: "5",
+    price: 5,
   },
   {
     title: "Kill Bill: Vol. 1",
@@ -47,7 +47,7 @@ export const movies = [
     id: 5,
     year: 2003,
     genres: "Ação",
-    price: "4",
+    price: 4,
   },
   {
     title: "2001: A Space Odyssey",
@@ -57,7 +57,7 @@ export const movies = [
     id: 6,
     year: 1968,
     genres: "Ficção Científica",
-    price: "7",
+    price: 7,
   },
   {
     title: "La La Land",
@@ -67,7 +67,7 @@ export const movies = [
     id: 7,
     year: 2016,
     genres: "Romance/Musical",
-    price: "4",
+    price: 4,
   },
   {
     title: "My Neighbor Totoro",
@@ -77,7 +77,7 @@ export const movies = [
     id: 8,
     year: 1988,
     genres: "Aventura/Animação",
-    price: "5",
+    price: 5,
   },
   {
     title: "GoodFellas",
@@ -87,7 +87,7 @@ export const movies = [
     id: 9,
     year: 1990,
     genres: "Crime/Drama",
-    price: "8",
+    price: 8,
   },
   {
     title: "Paddington",
@@ -97,7 +97,7 @@ export const movies = [
     id: 10,
     year: 2014,
     genres: "Comédia/Aventura",
-    price: "6",
+    price: 6,
   },
   {
     title: "The Worst Person in the World",
@@ -107,7 +107,7 @@ export const movies = [
     id: 11,
     year: 2021,
     genres: "Drama",
-    price: "4",
+    price: 4,
   },
   {
     title: "The Seventh Seal",
@@ -117,6 +117,6 @@ export const movies = [
     id: 12,
     year: 1957,
     genres: "Fantasia/Drama",
-    price: "6",
+    price: 6,
   },
 ];

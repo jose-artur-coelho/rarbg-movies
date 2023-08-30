@@ -1,5 +1,5 @@
 import { Lupa } from "./Lupa";
-import styles from "./Search.module.css";
+import styles from "@/styles/Search.module.css";
 export function Search() {
   return (
     <form>

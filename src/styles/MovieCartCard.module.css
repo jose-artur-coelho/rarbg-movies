@@ -1,0 +1,24 @@
+.posterImg {
+  width: 170px;
+  height: 200px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.movieTitle {
+  text-align: center;
+}
+.moviePrice {
+  text-align: center;
+  font-size: 24px;
+}
+.removeButton {
+  color: #fff;
+  text-align: center;
+  background-color: #700;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.removeButton:hover {
+  background-color: rgb(65, 4, 4);
+}
