@@ -7,7 +7,9 @@
   min-height: 100vh;
 }
 .container {
-  padding: 2rem 5rem;
+  padding: 1rem 1rem;
+  width: 1204px;
+
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

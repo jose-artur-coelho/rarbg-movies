@@ -34,9 +34,7 @@ export function MovieContainer({
         <p style={{ fontSize: "25px", fontWeight: "600" }}>R$ {price}</p>
       </div>
       <div className={styles.addToCartButton}>
-        <span style={{ marginRight: "10px", color: "#FFF" }}>
-          ADICIONAR AO CARRINHO
-        </span>
+        <span style={{ color: "#FFF" }}>ADICIONAR AO CARRINHO</span>
         <Cart color={"#fff"} width={18} height={18} />
       </div>
     </section>

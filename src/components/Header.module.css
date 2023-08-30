@@ -14,8 +14,32 @@
   -webkit-text-stroke: 1px #fff;
 }
 .searchCart {
-  width: 15rem;
+  width: 20rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.cartButton {
+  background: none;
+  border: none;
+  position: relative;
+}
+
+.cartButton:hover {
+  cursor: pointer;
+}
+.cartNumber {
+  font-size: 12px;
+  position: absolute;
+  left: 3.2px;
+  top: -1px;
+}
+.cartData {
+  position: relative;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #0470d3;
 }
