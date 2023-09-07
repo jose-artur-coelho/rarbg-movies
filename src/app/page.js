@@ -1,7 +1,7 @@
 "use client";
 import { MovieCard } from "@/components/MovieCard";
 import styles from "./page.module.css";
-import { movies } from "@/mocks/movies";
+import { movies } from "@/mock/movies";
 
 export default function Home() {
   return (

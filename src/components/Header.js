@@ -1,4 +1,5 @@
 "use client";
+
 import { Cart } from "./Cart";
 import { Search } from "./Search";
 import styles from "@/styles/Header.module.css";
@@ -11,7 +12,9 @@ export function Header() {
 
   return (
     <header className={styles.header}>
-      <h1 className={styles.logo}>RARBG</h1>
+      <Link style={{ textDecoration: "none" }} href="/">
+        <h1 className={styles.logo}>RARBG</h1>
+      </Link>
       <div className={styles.searchCart}>
         <Search />
         <Link href="/carrinho">
